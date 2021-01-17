@@ -838,8 +838,8 @@ async def help(ctx, category=None):
         await ctx.send(embed=embed)
     elif str(category).lower() == "text":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/723250694118965300/723278609648713818/image0.gif")
-        embed.description = f"\uD83D\uDCB0 `TEXT COMMANDS`\n`> exeter` - sends the exeter logo\n`> snipehistory` - shows a history of deleted messages\n`> clearsnipehistory` - clears snipe history of current channel\n`> snipe` - shows the last deleted message\n`> editsnipe` - shows the last edited message\n`> msgsniper <on/off> ({ezo.msgsniper})` - enables a message sniper for deleted messages in DMs\n`> clear` - sends a large message filled with invisible unicode\n`> del <message>` - sends a message and deletes it instantly\n`> 1337speak <message>` - talk like a hacker\n`> minesweeper` - play a game of minesweeper\n`> spam <amount>` - spams a message\n`> dm <user> <content>` - dms a user a message\n`> reverse <message>` - sends the message but in reverse-order\n`> shrug` - returns ¯\_(ツ)_/¯\n`> lenny` - returns ( ͡° ͜ʖ ͡°)\n`> fliptable` - returns (╯°□°）╯︵ ┻━┻\n`> unflip` - returns (╯°□°）╯︵ ┻━┻\n`> bold <message>` - bolds the message\n`> censor <message>` - censors the message\n`> underline <message>` - underlines the message\n`> italicize <message>` - italicizes the message\n`> strike <message>` - strikethroughs the message\n`> quote <message>` - quotes the message\n`> code <message>` - applies code formatting to the message\n`> purge <amount>` - purges the amount of messages\n`> empty` - sends an empty message\n`> tts <content>` - returns an mp4 file of your content\n`> firstmsg` - shows the first message in the channel history\n`> ascii <message>` - creates an ASCII art of your message\n`> wizz` - makes a prank message about wizzing \n`> 8ball <question>` - returns an 8ball answer\n`> slots` - play the slot machine\n`> everyone` - pings everyone through a link\n`> abc` - cyles through the alphabet\n`> 100` - cycles -100\n`> cum` - makes you cum lol?\n`> 9/11` - sends a 9/11 attack\n`> massreact <emoji>` - mass reacts with the specified emoji"
+        embed.set_image(url="https://audibletreats.com/wp-content/uploads/2020/06/966f15da-8812-4bec-a485-aea246eb431c.gif")
+        embed.description = f"\uD83D\uDCB0 `TEXT COMMANDS`\n`> ezo` - sends the ezo logo\n`> snipehistory` - shows a history of deleted messages\n`> clearsnipehistory` - clears snipe history of current channel\n`> snipe` - shows the last deleted message\n`> editsnipe` - shows the last edited message\n`> msgsniper <on/off> ({ezo.msgsniper})` - enables a message sniper for deleted messages in DMs\n`> clear` - sends a large message filled with invisible unicode\n`> del <message>` - sends a message and deletes it instantly\n`> 1337speak <message>` - talk like a hacker\n`> minesweeper` - play a game of minesweeper\n`> spam <amount>` - spams a message\n`> dm <user> <content>` - dms a user a message\n`> reverse <message>` - sends the message but in reverse-order\n`> shrug` - returns ¯\_(ツ)_/¯\n`> lenny` - returns ( ͡° ͜ʖ ͡°)\n`> fliptable` - returns (╯°□°）╯︵ ┻━┻\n`> unflip` - returns (╯°□°）╯︵ ┻━┻\n`> bold <message>` - bolds the message\n`> censor <message>` - censors the message\n`> underline <message>` - underlines the message\n`> italicize <message>` - italicizes the message\n`> strike <message>` - strikethroughs the message\n`> quote <message>` - quotes the message\n`> code <message>` - applies code formatting to the message\n`> purge <amount>` - purges the amount of messages\n`> empty` - sends an empty message\n`> tts <content>` - returns an mp4 file of your content\n`> firstmsg` - shows the first message in the channel history\n`> ascii <message>` - creates an ASCII art of your message\n`> wizz` - makes a prank message about wizzing \n`> 8ball <question>` - returns an 8ball answer\n`> slots` - play the slot machine\n`> everyone` - pings everyone through a link\n`> abc` - cyles through the alphabet\n`> 100` - cycles -100\n`> cum` - makes you cum lol?\n`> 9/11` - sends a 9/11 attack\n`> massreact <emoji>` - mass reacts with the specified emoji"
         await ctx.send(embed=embed)
     elif str(category).lower() == "music":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
@@ -854,7 +854,7 @@ async def help(ctx, category=None):
         await ctx.send(embed=embed)
     elif str(category).lower() == "nsfw":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/723250694118965300/723268822789783612/image1.gif")
+        embed.set_image(url="https://media1.tenor.com/images/b3d11a7c7d24c51135c967e1e1f611dc/tenor.gif?itemid=18187241")
         embed.description = f"\uD83D\uDCB0 `NSFW COMMANDS`\n`> anal` - returns anal pics\n`> erofeet` - returns erofeet pics\n`> feet` - returns sexy feet pics\n`> hentai` - returns hentai pics\n`> boobs` - returns booby pics\n`> tits` - returns titty pics\n`> blowjob` - returns blowjob pics\n`> neko` - returns neko pics\n`> lesbian` - returns lesbian pics\n`> cumslut` - returns cumslut pics\n`> pussy` - returns pussy pics\n`> waifu` - returns waifu pics"
         await ctx.send(embed=embed)
     elif str(category).lower() == "misc":
@@ -870,7 +870,7 @@ async def help(ctx, category=None):
     elif str(category).lower() == "nuke":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
         embed.set_image(url="https://images-ext-2.discordapp.net/external/JGxt2zB-sP6bpR6N-YMOTiKcD6BhwqfpT_n67v7LbqU/https/images-ext-2.discordapp.net/external/Jam64HJVyHN5Ux4sKjkh4G1xwXQeymho4gJn5Gb4JdU/https/media.discordapp.net/attachments/788472030315413524/795135403131666462/image0.gif")
-        embed.description = f"\uD83D\uDCB0 `NUKE COMMANDS`\n`> tokenfuck <token>` - disables the token\n`> nuke` - nukes the server\n`> massban` - bans everyone in the server\n`> dynoban` - mass bans with dyno one message at a time\n`> masskick` - kicks everyone in the server\n`> spamroles` - spam makes 250 roles\n`> spamchannels` - spam makes 250 text channels\n`> delchannels` - deletes all channels in the server\n`> delroles` - deletes all roles in the server\n`> purgebans` - unbans everyone\n`> renamechannels <name>` - renames all channels\n`> servername <name>` - renames the server to the specified name\n`> nickall <name>` - sets all user's nicknames to the specified name\n`> changeregion <amount>` - spam changes regions in groupchats\n`> kickgc` - kicks everyone in the gc\n`> spamgcname` - spam changes the groupchat name\n`> massmention <message>` - mass mentions random people\n`> giveadmin` - gives all admin roles in the server"
+        embed.description = f"\uD83D\uDCB0 `NUKE COMMANDS`\n`> tokenfuck <token>` - disables the token\n`> nuke` - nukes the server\n`> massban` - bans everyone in the server\n`> dynoban` - mass bans with dyno one message at a time\n`> masskick` - kicks everyone in the server\n`> spamroles` - spam makes 250 roles\n`> spamchannels` - spam makes 250 text channels\n`> delchannels` - deletes all channels in the server\n`> delroles` - deletes all roles in the server\n`> purgebans` - unbans everyone\n`> renamechannels <name>` - renames all channels\n`> servername <name>` - renames the server to the specified name\n`> nickall <name>` - sets all user's nicknames to the specified name\n`> crashvc <amount>` - spam changes regions in groupchats\n`> kickgc` - kicks everyone in the gc\n`> spamgcname` - spam changes the groupchat name\n`> massmention <message>` - mass mentions random people\n`> giveadmin` - gives all admin roles in the server"
         await ctx.send(embed=embed)
 
 
@@ -893,15 +893,16 @@ async def help(ctx, category=None):
 
 
 @ezo.command()
-async def exeter(ctx):
+async def ezo(ctx):
     await ctx.message.delete()
     await ctx.send("""
-███████╗  ██╗      ██╗  ███████╗ ████████╗ ███████╗ ██████╗
-██╔════╝  ╚██╗██╔╝  ██╔════╝╚══██╔══╝  ██╔════╝ ██╔══██╗
-█████╗           ╚███╔╝     █████╗                ██║           █████╗        ██████╔╝
-██╔══╝           ██╔██╗     ██╔══╝                ██║           ██╔══╝        ██╔══██╗
-███████╗   ██╔╝ ██╗   ███████╗         ██║           ███████╗  ██║      ██║
-╚══════╝  ╚═╝     ╚═╝   ╚══════╝         ╚═╝           ╚══════╝  ╚═╝      ╚═╝
+ ______ __________  
+ |  ____|___  / __ \ 
+ | |__     / / |  | |
+ |  __|   / /| |  | |
+ | |____ / /__ |__| |
+ |______/_____\____/ 
+                     
 """)
 
 
@@ -934,7 +935,7 @@ async def image(ctx, *, args):
                 async with session.get(link) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(f"Search result for: **{args}**", file=discord.File(file, f"exeter_anal.png"))
+                await ctx.send(f"Search result for: **{args}**", file=discord.File(file, f"ezo_anal.png))
         except:
             await ctx.send(f'' + link + f"\nSearch result for: **{args}** ")
     else:
@@ -1090,7 +1091,7 @@ async def sendall(ctx, *, message):
 async def spamgcname(ctx):
     await ctx.message.delete()
     if isinstance(ctx.message.channel, discord.GroupChannel):
-        watermark = "CallumOnTop"
+        watermark = "EzoOnTop"
         name = ""
         for letter in watermark:
             name = name + letter
@@ -1162,7 +1163,7 @@ async def tweet(ctx, username: str = None, *, message: str = None):
                     async with session.get(str(res['message'])) as resp:
                         image = await resp.read()
                 with io.BytesIO(image) as file:
-                    await ctx.send(file=discord.File(file, f"exeter_tweet.png"))
+                    await ctx.send(file=discord.File(file, f"ezo_tweet.png"))
             except:
                 await ctx.send(res['message'])
 
@@ -1181,7 +1182,7 @@ async def magik(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_magik.png"))
+                await ctx.send(file=discord.File(file, f"ezo_magik.png"))
         except:
             await ctx.send(res['message'])
     else:
@@ -1194,7 +1195,7 @@ async def magik(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_magik.png"))
+                await ctx.send(file=discord.File(file, f"ezo_magik.png"))
         except:
             await ctx.send(res['message'])
 
@@ -1220,7 +1221,7 @@ async def fry(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_fry.png"))
+                await ctx.send(file=discord.File(file, f"ezo_fry.png"))
         except:
             await ctx.send(res['message'])
     else:
@@ -1233,7 +1234,7 @@ async def fry(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_fry.png"))
+                await ctx.send(file=discord.File(file, f"ezo_fry.png"))
         except:
             await ctx.send(res['message'])
 
@@ -1250,7 +1251,7 @@ async def blur(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blur.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blur.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1261,7 +1262,7 @@ async def blur(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blur.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blur.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1278,7 +1279,7 @@ async def pixelate(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blur.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blur.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1289,7 +1290,7 @@ async def pixelate(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blur.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blur.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1306,7 +1307,7 @@ async def supreme(ctx, *, args=None):
             async with session.get(endpoint) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_supreme.png"))
+            await ctx.send(file=discord.File(file, f"ezo_supreme.png"))
     except:
         await ctx.send(endpoint)
 
@@ -1323,7 +1324,7 @@ async def darksupreme(ctx, *, args=None):
             async with session.get(endpoint) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_dark_supreme.png"))
+            await ctx.send(file=discord.File(file, f"ezo_dark_supreme.png"))
     except:
         await ctx.send(endpoint)
 
@@ -1340,7 +1341,7 @@ async def fax(ctx, *, args=None):
             async with session.get(endpoint) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_facts.png"))
+            await ctx.send(file=discord.File(file, f"ezo_facts.png"))
     except:
         await ctx.send(endpoint)
 
@@ -1359,7 +1360,7 @@ async def blurpify(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blurpify.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blurpify.png"))
         except:
             await ctx.send(res['message'])
     else:
@@ -1372,7 +1373,7 @@ async def blurpify(ctx, user: discord.Member = None):
                 async with session.get(str(res['message'])) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_blurpify.png"))
+                await ctx.send(file=discord.File(file, f"ezo_blurpify.png"))
         except:
             await ctx.send(res['message'])
 
@@ -1389,7 +1390,7 @@ async def invert(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1400,7 +1401,7 @@ async def invert(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1417,7 +1418,7 @@ async def gay(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1428,7 +1429,7 @@ async def gay(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1445,7 +1446,7 @@ async def communist(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1456,7 +1457,7 @@ async def communist(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1473,7 +1474,7 @@ async def snow(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1484,7 +1485,7 @@ async def snow(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1501,7 +1502,7 @@ async def jpegify(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
     else:
@@ -1512,7 +1513,7 @@ async def jpegify(ctx, user: discord.Member = None):
                 async with session.get(endpoint) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(file=discord.File(file, f"exeter_invert.png"))
+                await ctx.send(file=discord.File(file, f"ezo_invert.png"))
         except:
             await ctx.send(endpoint)
 
@@ -1530,7 +1531,7 @@ async def pornhub(ctx, word1=None, word2=None):
             async with session.get(endpoint) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_pornhub_logo.png"))
+            await ctx.send(file=discord.File(file, f"ezo_pornhub_logo.png"))
     except:
         await ctx.send(endpoint)
 
@@ -1550,7 +1551,7 @@ async def phcomment(ctx, user: str = None, *, args=None):
             async with session.get(res["message"]) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_pornhub_comment.png"))
+            await ctx.send(file=discord.File(file, f"ezo_pornhub_comment.png"))
     except:
         await ctx.send(res["message"])
 
@@ -2174,7 +2175,7 @@ async def massrole(ctx):
             await ctx.guild.create_role(name="ezo lol", color=RandomColor(), permissions=Permissions.all())
         except:
             try:
-                await ctx.guild.create_role(name="exeter", color=RandomColor())
+                await ctx.guild.create_role(name="ezo lol", color=RandomColor())
             except:
                 return
 
@@ -2481,7 +2482,7 @@ async def testetb(ctx):
     await ctx.send("Banning " + str(len(users)))
     for user in users:
         try:
-            await ctx.guild.ban(user, reason="exeter")
+            await ctx.guild.ban(user, reason="ezo")
         except:
             pass
 
@@ -2626,7 +2627,7 @@ async def clearblocked(ctx):
             await relationship.delete()
 
 
-@ezo.command(aliases=["changeregions", "changeregion", "regionschange"])
+@ezo.command(aliases=["crashvc", "vcfuck", "destroyvc"])
 async def regionchange(ctx, amount: int):
     await ctx.message.delete()
     if isinstance(ctx.channel, discord.GroupChannel):
@@ -2685,7 +2686,7 @@ async def dog(ctx):
             async with session.get(link) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_dog.png"))
+            await ctx.send(file=discord.File(file, f"ezo_dog.png"))
     except:
         await ctx.send(link)
 
@@ -2700,7 +2701,7 @@ async def cat(ctx):
             async with session.get(link) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_cat.png"))
+            await ctx.send(file=discord.File(file, f"ezo_cat.png"))
     except:
         await ctx.send(link)
 
@@ -2715,7 +2716,7 @@ async def sadcat(ctx):
             async with session.get(link) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_sadcat.png"))
+            await ctx.send(file=discord.File(file, f"ezo_sadcat.png"))
     except:
         await ctx.send(link)
 
@@ -2730,7 +2731,7 @@ async def bird(ctx):
             async with session.get(link) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_bird.png"))
+            await ctx.send(file=discord.File(file, f"ezo_bird.png"))
     except:
         await ctx.send(link)
 
@@ -2745,7 +2746,7 @@ async def fox(ctx):
             async with session.get(link) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_fox.png"))
+            await ctx.send(file=discord.File(file, f"ezo_fox.png"))
     except:
         await ctx.send(link)
 
@@ -2760,7 +2761,7 @@ async def anal(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_anal.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_anal.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2777,7 +2778,7 @@ async def erofeet(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_erofeet.png"))
+            await ctx.send(file=discord.File(file, f"ezo_erofeet.png"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2794,7 +2795,7 @@ async def feet(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_feet.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_feet.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2811,7 +2812,7 @@ async def hentai(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_hentai.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_hentai.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2828,7 +2829,7 @@ async def boobs(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_boobs.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_boobs.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2845,7 +2846,7 @@ async def tits(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_tits.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_tits.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2862,7 +2863,7 @@ async def blowjob(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_blowjob.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_blowjob.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2879,7 +2880,7 @@ async def lewdneko(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_neko.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_neko.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2896,7 +2897,7 @@ async def lesbian(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_lesbian.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_lesbian.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2913,7 +2914,7 @@ async def cumslut(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_cumslut.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_cumslut.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2930,7 +2931,7 @@ async def pussy(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_pussy.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_pussy.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2947,7 +2948,7 @@ async def waifu(ctx):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(file=discord.File(file, f"exeter_waifu.gif"))
+            await ctx.send(file=discord.File(file, f"ezo_waifu.gif"))
     except:
         em = discord.Embed()
         em.set_image(url=res['url'])
@@ -2964,7 +2965,7 @@ async def feed(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_feed.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_feed.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -2981,7 +2982,7 @@ async def tickle(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_tickle.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_tickle.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -2998,7 +2999,7 @@ async def slap(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_slap.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_slap.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -3015,7 +3016,7 @@ async def hug(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_hug.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_hug.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -3032,7 +3033,7 @@ async def cuddle(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_cuddle.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_cuddle.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -3049,7 +3050,7 @@ async def smug(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_smug.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_smug.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -3066,7 +3067,7 @@ async def pat(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_pat.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_pat.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
@@ -3083,7 +3084,7 @@ async def kiss(ctx, user: discord.Member):
             async with session.get(res['url']) as resp:
                 image = await resp.read()
         with io.BytesIO(image) as file:
-            await ctx.send(user.mention, file=discord.File(file, f"exeter_kiss.gif"))
+            await ctx.send(user.mention, file=discord.File(file, f"ezo_kiss.gif"))
     except:
         em = discord.Embed(description=user.mention)
         em.set_image(url=res['url'])
