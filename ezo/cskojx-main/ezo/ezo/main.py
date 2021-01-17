@@ -913,6 +913,13 @@ async def gif(ctx, query=None):
         r = requests.get("https://api.giphy.com/v1/gifs/random?api_key=ldQeNHnpL3WcCxJE1uO8HTk17ICn8i34&tag=&rating=R")
         res = r.json()
         await ctx.send(res['data']['url'])
+        
+         else:
+        r = requests.get(
+            f"https://api.giphy.com/v1/gifs/search?api_key=ldQeNHnpL3WcCxJE1uO8HTk17ICn8i34&q={query}&limit=1&offset=0&rating=R&lang=en")
+        res = r.json()
+        await ctx.send(res['data'][0]["url"])
+
 
 
 
