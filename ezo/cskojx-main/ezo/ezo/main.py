@@ -935,7 +935,7 @@ async def image(ctx, *, args):
                 async with session.get(link) as resp:
                     image = await resp.read()
             with io.BytesIO(image) as file:
-                await ctx.send(f"Search result for: **{args}**", file=discord.File(file, f"ezo_anal.png))
+                await ctx.send(f"Search result for: **{args}**", file=discord.File(file, f"ezo_anal.png"))
         except:
             await ctx.send(f'' + link + f"\nSearch result for: **{args}** ")
     else:
